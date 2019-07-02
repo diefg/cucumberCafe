@@ -7,6 +7,7 @@ export default class GooglePage {
     }
 }
 
-function getSucursalBySpan(text) {
+async t =>  function getSucursalBySpan(text) {
+    await t.click();
     return Selector('span').withText(text);
 }

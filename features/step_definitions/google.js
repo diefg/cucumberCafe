@@ -4,5 +4,6 @@ const Selector = require('testcafe').Selector;
 const googlePage = require('../support/pages/google-page');
 
 Given('I open Google\'s search page', async t => {
-    await t.navigateTo.navigateTo('https://google.com')
+    await t.
+    await t.navigateTo('https://google.com')
 });
